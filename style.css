@@ -1,0 +1,137 @@
+/* CSS BY VIOLET KAUFMAN */
+
+/* IMPORTED FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ROOT VARIABLES */
+
+:root {
+    --color-midnight-blue: #1F2A44;
+    --color-olive-green: #76885B;
+    --color-champagne-gold: #E5C185;
+    --color-linen: #F8F4EC;
+    --color-dark-charcoal: #2B2B2B;
+    --color-soft-white: #FAF9F6;
+    --font-main: 'Playfair Display' , serif;
+    }
+
+/* GLOBAL STYLES (mobile first/small) */
+body {
+    font-family: var(--font-main);
+    background-color: var(--color-soft-white);
+    color: var(--color-midnight-blue);
+    line-height: 1.5;
+      }
+      
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+      }
+      
+header {
+    background-color: var(--color-midnight-blue);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+      }
+      
+ header img {
+    max-width: 100px;
+    margin-bottom: 1rem;
+      }
+      
+header h1 {
+    margin-bottom: 0.5rem;
+      }
+      
+header p {
+    margin-bottom: 1rem;
+    font-style: italic;
+      }
+      
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+    background-color: var(--color-champagne-gold);
+    padding: 0.5rem;
+    margin: 0;
+      }
+      
+nav a {
+    text-decoration: none;
+    color: var(--color-midnight-blue);
+    font-weight: bold;
+      }
+      
+main {
+    padding: 1rem;
+      }
+      
+section {
+    margin-bottom: 2rem;
+      }
+      
+h2 {
+    margin-bottom: 1rem;
+      }
+      
+h3 {
+    background-color: var(--color-olive-green);
+    color: white;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+      }
+      
+ul {
+    padding-left: 1.2rem;
+    margin-bottom: 1rem;
+      }
+      
+address {
+    font-style: normal;
+    line-height: 1.6;
+      }
+      
+footer {
+    background-color: var(--color-midnight-blue);
+    color: white;
+    text-align: center;
+     padding: 1rem;
+      }
+      
+a {
+    color: var(--color-champagne-gold);
+      }
+      
+.gallery ul {
+    list-style: none;
+    padding: 0;
+      }
+      
+ .gallery li {
+    margin-bottom: 1rem;
+      }
+      
+.gallery img {
+    border-radius: 4px;
+      }
+      
+#gallery p:last-of-type {
+    background-color: var(--color-olive-green);
+    color: white;
+    text-align: center;
+    padding: 0.75rem;
+     border-radius: 5px;
+    font-weight: bold;
+      }
