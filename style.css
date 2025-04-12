@@ -246,7 +246,7 @@ footer a {
 
 #gallery p{
     background-color: transparent !important;
-    color: var(--color-midnight-blue);
+    color: var(--color-midnight-blue) !important;
 }
       
       
