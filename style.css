@@ -242,6 +242,7 @@ footer a {
 #gallery {
     background-color: transparent !important;
     color: var(--color-midnight-blue);
+    text-align: left;
 }
 
 #gallery p{
