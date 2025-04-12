@@ -56,16 +56,18 @@ header p {
     margin-bottom: 1rem;
     font-style: italic;
       }
+
+nav{
+    background-color: var(--color-champagne-gold);
+}
       
 nav ul {
     display: flex;
     justify-content: center;
-    gap: 0.5rem;
+    gap: 1rem;
     list-style: none;
-    background-color: var(--color-champagne-gold);
-    padding: 0.5rem;
+    padding: 0.5rem 0;
     margin: 0;
-    flex-direction: column;
       }
       
 nav a {
@@ -122,6 +124,17 @@ a {
     color: var(--color-champagne-gold);
       }
 
+.gallery figure {
+    text-align: center;
+    margin-bottom: 1rem;
+      }
+      
+.gallery figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--color-midnight-blue);
+      }
+
 .gallery li {
     text-align: center;
       }
@@ -129,6 +142,7 @@ a {
 .gallery ul {
     list-style: none;
     padding: 0;
+    margin: 0;
       }
       
  .gallery li {
@@ -159,4 +173,27 @@ a {
 footer {
     text-align: center;
     line-height: 1.5;
+      }
+
+.offering-card {
+    background-color: var(--color-olive-green);
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    text-align: center;
+      }
+      
+.offering-card h3 {
+    margin-bottom: 0.5rem;
+      }
+      
+.offering-card p, .offering-card ul {
+    margin-bottom: 1rem;
+      }
+      
+.offering-card ul {
+    list-style: disc;
+    padding-left: 1.2rem;
+    text-align: left;
       }
