@@ -211,11 +211,16 @@ footer {
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     margin-bottom: 1rem;
+    overflow: hidden;
+    text-align: center;
       }
       
 .gallery-card img {
-    border-radius: 4px;
-    margin-bottom: 0.5rem;
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+    margin: 0;
       }
       
 .gallery-card figcaption {
@@ -223,6 +228,7 @@ footer {
     font-size: 0.9rem;
     color: var(--color-midnight-blue);
     text-align: center;
+    padding: 0.5rem;
       }
 
 footer address {
