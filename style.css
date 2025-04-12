@@ -238,5 +238,14 @@ footer a {
     color: var(--color-champagne-gold);
     text-decoration: none;
       }
+
+#galleru {
+    background-color: transparent !important;
+}
+
+#gallery p{
+    background-color: transparent !important;
+    color: var(--color-midnight-blue);
+}
       
       
