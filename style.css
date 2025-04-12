@@ -95,14 +95,6 @@ h2 {
     margin-bottom: 1rem;
       }
       
-h3 {
-    background-color: var(--color-olive-green);
-    color: white;
-    padding: 0.5rem;
-    margin-bottom: 0.5rem;
-    border-radius: 5px;
-      }
-      
 ul {
     padding: 0;
     margin-bottom: 1rem;
