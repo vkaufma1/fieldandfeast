@@ -162,10 +162,9 @@ a {
     border-radius: 4px;
     margin-bottom: 0.25rem;
       }
-
-    #gallery h2 + p {
-        text-align: left;
-    }
+#gallery > p {
+    text-align: left;
+}
       
 #gallery p:last-of-type {
     background-color: var(--color-olive-green);
