@@ -162,6 +162,16 @@ a {
     margin: 0 auto;
       }
 
+    #gallery .gallery-container p {
+        background-color: var(--color-olive-green) !important;
+        color: white !important;
+        text-align: center;
+        padding: 0.75rem;
+        font-weight: bold;
+        margin-top: 1rem;
+        border-radius: 4px;
+    }
+
  p, li, address {
     margin-bottom: 1rem;
       }
