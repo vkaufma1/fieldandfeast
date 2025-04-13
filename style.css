@@ -355,6 +355,6 @@ footer a {
   
 @media (min-width: 1200px) {
    header nav ul {
-    gap: 8rem;
+    gap: 8rem !important;
    }
 }
