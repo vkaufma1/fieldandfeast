@@ -278,6 +278,11 @@ footer a {
         gap: 1rem;
     }
 
+    .gallery-container {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
     .gallery-container ul{
         display: flex;
         flex-wrap: wrap;
