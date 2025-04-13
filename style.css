@@ -257,7 +257,20 @@ footer a {
         display: flex;
         flex-wrap: wrap;
         gap: 1rem;
+        padding: 2rem;
     }
+
+    #offerings h2{
+        width: 100%;
+    }
+
+    #offerings .offering-card {
+        display: inline-block;
+        width: calc(50% - 1rem);
+        margin: 0.5rem;
+        vertical-align: top;
+    }
+
     .offering-card{
         flex: 1 1 calc(50% - 1rem);
     }
@@ -272,5 +285,15 @@ footer a {
     .gallery-container li {
         list-style: none;
         width: calc(50% - 0.5rem);
+    }
+
+    .gallery-container p{
+        background-color: var(--color-olive-green);
+        color: white;
+        text-align: center;
+        padding: 0.75rem;
+        font-weight: bold;
+        margin-top: 1rem;
+        border-radius: 4px;
     }
 }
