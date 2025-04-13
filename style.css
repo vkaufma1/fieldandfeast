@@ -64,7 +64,6 @@ nav{
     width: 100vw;
     padding: 0;
     margin: 0;
-    border-top: 4px solid var(--color-champagne-gold);
 }
       
 
@@ -72,7 +71,7 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -82,9 +81,10 @@ nav a {
     text-decoration: none;
     color: var(--color-midnight-blue);
     font-weight: bold;
-    font-size: 1.15rem;
-    padding: 0.75rem 1rem;
+    font-size: 1.4rem;
+    padding: 1rem 2rem;
     display: inline-block;
+    line-height: 1;
       }
       
 main {
