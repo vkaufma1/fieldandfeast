@@ -253,23 +253,12 @@ footer a {
       
 /* MEDIA QUERY (medium) */
 @media (min-width: 600px) {
-    #offerings {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1rem;
-        padding: 2rem;
-    }
+   
 
     #offerings h2{
         width: 100%;
     }
 
-    #offerings .offering-card {
-        display: inline-block;
-        width: calc(50% - 1rem);
-        margin: 0.5rem;
-        vertical-align: top;
-    }
 
     .offering-card{
         width: calc(50% - 1rem);
