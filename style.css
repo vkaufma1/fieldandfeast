@@ -163,7 +163,7 @@ a {
     margin-bottom: 0.25rem;
       }
 
-    #gallery p:first-of-type {
+    #gallery h2 + p {
         text-align: left;
     }
       
