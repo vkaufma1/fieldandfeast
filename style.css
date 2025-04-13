@@ -163,7 +163,7 @@ a {
     margin-bottom: 0.25rem;
       }
 #gallery > p {
-    text-align: left;
+    text-align: left !important;
 }
       
 #gallery p:last-of-type {
