@@ -350,3 +350,22 @@ footer a {
         width: calc(33.333% - 0.67rem);
     }
 }
+
+/* MEDIA QUERY (XL) */
+@media (min-width: 1200px) {
+    main {
+        padding: 2rem 6rem
+    }
+
+    nav a {
+        font-size: 1.5rem;
+        padding: 1.2rem 2rem;
+    }
+    nav ul {
+        gap: 6rem;
+    }
+
+    .gallery-container li {
+        width: calc(45% - 1rem);
+    }
+}
