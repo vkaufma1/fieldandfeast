@@ -66,9 +66,9 @@ nav{
 nav ul {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
     list-style: none;
-    padding: 0.5rem 0;
+    padding: 1rem 0;
     margin: 0;
       }
       
