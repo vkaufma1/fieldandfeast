@@ -336,3 +336,17 @@ footer a {
         height: auto;
     }
 }
+
+/* MEDIA QUERY (LARGE) */
+
+@media (min-width: 900px) {
+    .gallery-container ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .gallery-container li {
+        width: calc(33.333% - 0.67rem);
+    }
+}
