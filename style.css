@@ -162,6 +162,10 @@ a {
     border-radius: 4px;
     margin-bottom: 0.25rem;
       }
+
+    #gallery p:first-of-type {
+        text-align: left;
+    }
       
 #gallery p:last-of-type {
     background-color: var(--color-olive-green);
