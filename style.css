@@ -354,7 +354,7 @@ footer a {
 /* MEDIA QUERY (XL) */
   
 @media (min-width: 1200px) {
-   body {
-    background-color: yellow;
+   header nav ul {
+    gap: 8rem;
    }
 }
