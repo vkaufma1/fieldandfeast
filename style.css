@@ -251,3 +251,26 @@ footer a {
 }
       
       
+/* MEDIA QUERY (medium) */
+@media (min-width: 600px) {
+    #offerings {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .offering-card{
+        flex: 1 1 calc(50% - 1rem);
+    }
+
+    .gallery-container ul{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 0;
+    }
+
+    .gallery-container li {
+        list-style: none;
+        width: calc(50% - 0.5rem);
+    }
+}
