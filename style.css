@@ -354,15 +354,25 @@ footer a {
 /* MEDIA QUERY (XL) */
 @media (min-width: 1200px) {
     main {
-        padding: 2rem 6rem
+        padding: 3rem 6rem
     }
 
     nav a {
         font-size: 1.5rem;
-        padding: 1.2rem 2rem;
+        padding: 1rem 0;
     }
     nav ul {
         gap: 6rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 2.75rem;
+    }
+
+    h2 {
+        font-size: 2rem;
     }
 
     .gallery-container {
@@ -372,13 +382,15 @@ footer a {
     }
 
     .gallery-container li {
-        width: calc(33.333% - 1.66rem);
+        flex: 1 1 calc(33.333% - 2rem);
+        max-width: calc(33.333% - 2rem);
     }
 
     .gallery-container ul {
         display: flex;
         flex-wrap: wrap;
-        gap: 2.5rem;
+        justify-content: center;
+        gap: 2rem;
         padding: 0;
     }
 
@@ -388,10 +400,17 @@ footer a {
 
     .offering-container {
         gap: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     #gallery p:last-of-type {
         max-width: 300px;
         margin: 1rem auto 0 auto;
+    }
+
+    .offering-card {
+        width: calc(33.333% - 2rem);
     }
 }
