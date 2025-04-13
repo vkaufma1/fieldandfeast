@@ -353,3 +353,8 @@ footer a {
 
 /* MEDIA QUERY (XL) */
   
+@media (min-width: 1200px) {
+    nav ul{
+        gap: 6rem;
+    }
+}
